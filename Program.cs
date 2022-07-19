@@ -14,3 +14,12 @@
     }
     return outputArray;
 }
+
+void PrintArray(string[] inputArray)
+{
+    for (int i = 0; i < inputArray.Length; i++)
+    {
+        Console.Write(inputArray[i] + " ");
+    }
+    Console.WriteLine();
+}
